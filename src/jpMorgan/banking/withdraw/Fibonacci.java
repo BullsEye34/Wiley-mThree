@@ -42,7 +42,6 @@ class Gen extends Thread{
 class Sume extends Thread{
     static int count =0;
     static ArrayList<Integer> list = new ArrayList<Integer>();
-    static ArrayList<Integer> slist = new ArrayList<Integer>();
     int sc =0;
     public void run(){
         list.add(0);
